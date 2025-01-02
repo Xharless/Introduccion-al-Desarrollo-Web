@@ -1,0 +1,39 @@
+/*Aqui el formato es:
+1. Selector que en este caso es p
+2. La propiedad que en este caso es color 
+3. El valor que en este caso es red
+siemre deben estar incorporados los ; ya que son el termino de cada declaracion
+*/
+p{
+    color: red;
+}
+
+
+/*
+* SI tenemos una etiqueta (body, p, h1, etc), lo podemos seleccionar para cambiar todas las etiquetas de este tipo
+* Una clase como .par-1 cuando queremos cambiar algunos elementos
+* un identificador #par-1 cuando solo queremos cambiar un unico elemento
+* todo esto se vera en index4
+* El mas recomendado es por clases
+*/
+
+h1{
+    color: blue;
+}
+
+#Titulo-principal{
+    color:red;
+}
+
+.titulo-secundario{
+    color: green;
+}
+
+/*El modelo de cajas es la forma de calcular cuanto espacio ocupa un elemento*/
+.border-box{
+    border: solid 1px black;
+    margin: 50px; /*margen exterior*/
+    padding: 20px; /*margen interior*/
+    color: black;
+}
+
