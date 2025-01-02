@@ -1,0 +1,11 @@
+Boostrap es un framework de css. Los frameworks son conjuntos de conceptos, practicas y criterios enfocados en solventar 
+una problematica particular y comun a los desarrolladores
+
+* link a Boostrap: https://getbootstrap.com/docs/5.3/getting-started/introduction/
+Boostrap nos ayuda por ejemplo en los botones
+
+Las clases Utilities nos ayudan a personalizar los componentes (cambiar los colores de fondo de un boton o otras cosas)
+
+Las grillas de Boostrap nos permite crear layouts complejps de forma sencilla 
+
+El diseño responsivo significa que la pagina web debe ser adaptada a cualquier dispositivo electronico
