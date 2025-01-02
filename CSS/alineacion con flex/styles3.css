@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+}
+
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    width: 25%; /*solo cabrian 4 imagnes hasta completar el 100%*/
+}
+.box img{
+    width: 100%; /*la imagen toma el 100% de cada div*/
+}

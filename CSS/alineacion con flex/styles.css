@@ -1,0 +1,26 @@
+/*Debemos especificar el elemento, en este caso es para los li*/
+body{
+    /*quitar el margen del body*/
+    margin: 0;
+}
+.menu-navegacion{
+    background-color: #1bc74b;
+    padding: 10px;
+    margin: 0;
+}
+
+.menu-navegacion li{
+    display: inline-block;
+    
+}
+
+/*podemos cambiar los elementos aun mas especificos*/
+.menu-navegacion a{
+    color: white;
+    text-decoration: none; /*quitar subrayado*/
+}
+
+/*Si pasamos el mouse, podemos hacer que cambie el color, pero dependera del estado*/
+.menu-navegacion a:hover{
+    background-color: rgb(14, 105, 9);
+}

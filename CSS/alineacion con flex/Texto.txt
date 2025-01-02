@@ -1,0 +1,18 @@
+
+- Diplay box: un elemento de bloque siempre comienza en una bueva linnea y ocupa tofdo el ancho disponivle (desde izqioerda a derecha en todo lo que pueda)
+Por lo tanto, si la pripiedad stiene asignada un valor block, no podremos poner un elemento al lado de otro
+EJ: index 1
+
+
+- Display inline: Los elementos inline no comienzan en una nueva linea y su ancho ocupa el minimo espacio posible
+EJ: Index 2
+
+- Display inline - block: Se comporta como inline pero tambien como un bloque donde puedo definir un alto y ancho
+es itul para construir menus o galeria de imagenes
+EJ: ejemplo.html - styles.css
+
+- Flexbox: son contenedores, es una herramienta que nos permite alinear contenido de forma sencilla. Ayuda a la construccion de layouts que contengan 
+elementos en filas y columnas. 
+* Flexbox utiliza flex-wrap: nowrap; esto hace que los elementos aparazcvan en una unica linea, por lo que si queremos hacer algo como
+una galeria de imagenes, tenemos que cambiarla por flex-wrap:wrap
+EJ: flexbox.html, flexbox2.html, styles2.css y styles3.css
